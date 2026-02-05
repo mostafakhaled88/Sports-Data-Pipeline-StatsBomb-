@@ -152,8 +152,8 @@ This is the **most complex and performance-critical pipeline**.
 ### Local (DirectRunner)
 
 ```bash
-python dataflow/pipelines/competitions_pipeline.py
-python dataflow/pipelines/matches_pipeline.py
+python -m dataflow.pipelines.competitions_pipeline
+python -m dataflow.pipelines.matches_pipeline
 ```
 
 ### Dataflow (Example)
@@ -184,3 +184,4 @@ python dataflow/pipelines/events_pipeline.py \
 ---
 
 Part of the **Sports Data Pipeline** project.
+
